@@ -12,7 +12,7 @@ function Header(){
                 
             }}>
                 <li><Link to="/shop">shop</Link></li>
-                <li><Link to="/shop-card">shop card</Link></li>
+                <li><Link to="/shop-card">shop cart</Link></li>
             </ul>
         </div>
     )
