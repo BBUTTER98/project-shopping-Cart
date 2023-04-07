@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/project-shopping-cart/static/css/main.4c5547fc.css",
+    "main.js": "/project-shopping-cart/static/js/main.20658a30.js",
+    "static/media/pikachu.png": "/project-shopping-cart/static/media/pikachu.56b928a2811e0abedef4.png",
+    "static/media/pichu.png": "/project-shopping-cart/static/media/pichu.5c99d7b842e0a4a00299.png",
+    "static/media/bulbasaur.png": "/project-shopping-cart/static/media/bulbasaur.961a737abc93a29558b0.png",
+    "static/media/ivysaur.png": "/project-shopping-cart/static/media/ivysaur.f8cc5593af8b0f69d7bb.png",
+    "static/media/blastoise.png": "/project-shopping-cart/static/media/blastoise.be8dba0af79ce37ddd6f.png",
+    "static/media/ekans.png": "/project-shopping-cart/static/media/ekans.d382fc6b5280ceb680e9.png",
+    "static/media/venusaur.png": "/project-shopping-cart/static/media/venusaur.883468adb582c231d55b.png",
+    "static/media/charmeleon.png": "/project-shopping-cart/static/media/charmeleon.b74311e8e4cb26d517d4.png",
+    "static/media/arbok.png": "/project-shopping-cart/static/media/arbok.377018946af3a8503ab9.png",
+    "static/media/golem.png": "/project-shopping-cart/static/media/golem.0d409fefb409d69c7e91.png",
+    "static/media/wartortle.png": "/project-shopping-cart/static/media/wartortle.4273041aac3afe061375.png",
+    "static/media/charizard.png": "/project-shopping-cart/static/media/charizard.465d670c19c3b4b749a1.png",
+    "static/media/charmander.png": "/project-shopping-cart/static/media/charmander.51057e9e8da58b29021a.png",
+    "static/media/graveler.png": "/project-shopping-cart/static/media/graveler.d3fbe717fb71d1b2e166.png",
+    "static/media/squirtle.png": "/project-shopping-cart/static/media/squirtle.82d3caf007b65bbda0e9.png",
+    "static/media/geodude.png": "/project-shopping-cart/static/media/geodude.374f30131a78b3d6399d.png",
+    "static/media/raichu.png": "/project-shopping-cart/static/media/raichu.e596a933638ba06d971c.png",
+    "index.html": "/project-shopping-cart/index.html",
+    "main.4c5547fc.css.map": "/project-shopping-cart/static/css/main.4c5547fc.css.map",
+    "main.20658a30.js.map": "/project-shopping-cart/static/js/main.20658a30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c5547fc.css",
+    "static/js/main.20658a30.js"
+  ]
+}
