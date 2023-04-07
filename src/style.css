@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+button{
+    all:unset;
+    text-align: center;
+}
+#root{
+    min-height: 100dvh;
+}
+.header{
+    display: flex;
+}
+.header ul{
+    display: flex;
+    margin: 0;
+}
+.header h1{
+    flex: 1;
+}
+.header ul{
+    flex: 1;
+    text-align:center;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header ul li{
+    flex: 1;
+    text-align: center;
+}
+.header ul li a,.header h1{
+    display: grid;
+    place-content: center;
+}
+.header ul li{
+    transition: all .2s ease-in-out;
+}
+.header ul li:hover{
+    background-color: #EEE;
+}
+.header ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    height: 100%;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 150px 1fr;
+}
+.shop-container{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    font-size: 20px;
+    gap: 20px;
+}
+.shop-item{
+    box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.2);
+    padding: 20px;
+    border-radius: 20px;
+    display: grid;
+    gap: 10px;
+}
+.pokemon-shop{
+    cursor: pointer;
+    width: 250px;
+    height: 250px;
+}
+.type{
+    color: white;
+    padding: 10px;
+    width: 200px;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding-left: 10px;
+    text-align: center;
+}
+.fire-flying{
+    background: linear-gradient(to left, #6F8FAF 50%, orangered 50%);
+}
+.fire{
+    background-color: orangered;
+}
+.grass-poison{
+    background: linear-gradient(to left, purple 50%, green 50%);
+}
+.water{
+    background-color: #4169E1;
+}
+.electric{
+    background-color: yellow;
+    color: black;
+}
+.poison{
+    background-color: purple;
+}
+.ground-rock{
+    background: linear-gradient(to left, #8B4513 50%, #331800 50%);
+}
+.buy-for{
+    width: 200px;
+    margin: auto;
+    height: 40px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 3px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.basket-pokemon-icon{
+    width: 100px;
+    height: 100px;
+}
+.shop-card-item{
+    display: flex;
+}
+.shop-card-item > *{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shop-card-item:first-child{
+    width: 20%;
+}
+.shop-card-item > .title{
+    width: 50%;
+    display: flex;
+    font-size: 20px;  
+}
+
+.shop-card-item > .title > div{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shop-card-item  .title .name{
+    font-size: 30px;
+    font-weight: 600;
+}
+.shop-type{
+    width: 50%;
+}
+.quantity-buttons > *{
+    display: block;
+    height: 50%;
+    margin: auto;
+    padding: 0;
+    background-color: white;
+    flex: 1;
+    border: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quantity-buttons button{
+    font-weight: 900;
+    cursor: pointer;
+}
+.quantity-buttons{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-remove button{
+    background-color: red;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 15px;
+    color: white;
+}
+.price{
+    font-size: 24px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+footer > div{
+    width: 30%;
+}
+footer button{
+    font-size: 24px;
+    text-align: center;
+    background-color: #EEE;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+.sum{
+    width: 40%;
+    font-size: 24px;
+    font-weight: 600;
+}
