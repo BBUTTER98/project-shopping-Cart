@@ -5,7 +5,6 @@ function ShopCardItem(props){
     const { name, type, price,} = pokemonData;
     const pokemonType = `shop-type type ${type}`;
     let sum = price*quantity;
-    
     return  (
         <div className="shop-card-item">
             <div>
@@ -23,15 +22,16 @@ function ShopCardItem(props){
                     
             </div>
             <div className="quantity-buttons">
-            <button onClick={()=>{
-                    increase(id);
-                }}>+</button>
+                <button onClick={()=>{
+                    decrease(id);
+                }}>-</button>
+                
                 <div>
                     {quantity}
                 </div>
                 <button onClick={()=>{
-                    decrease(id);
-                }}>-</button>
+                    increase(id);
+                }}>+</button>
             </div>
             <div className="btn-remove">
                 <button onClick={()=>{

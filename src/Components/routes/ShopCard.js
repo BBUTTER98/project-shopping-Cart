@@ -30,7 +30,6 @@ function ShopCard(props){
                 <div className="clear-basket">
                     <button onClick={()=>{
                         clear();
-                        alert("Your basket is empty");
                     }}>Clean Basket</button>
                 </div>
                 
