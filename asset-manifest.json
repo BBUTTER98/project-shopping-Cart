@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/project-shopping-cart/static/css/main.4109600a.css",
-    "main.js": "/project-shopping-cart/static/js/main.b9086e13.js",
+    "main.css": "/project-shopping-cart/static/css/main.a6e6fb09.css",
+    "main.js": "/project-shopping-cart/static/js/main.4de13f08.js",
     "static/media/pikachu.png": "/project-shopping-cart/static/media/pikachu.56b928a2811e0abedef4.png",
     "static/media/pichu.png": "/project-shopping-cart/static/media/pichu.5c99d7b842e0a4a00299.png",
     "static/media/bulbasaur.png": "/project-shopping-cart/static/media/bulbasaur.961a737abc93a29558b0.png",
@@ -16,15 +16,16 @@
     "static/media/charizard.png": "/project-shopping-cart/static/media/charizard.465d670c19c3b4b749a1.png",
     "static/media/charmander.png": "/project-shopping-cart/static/media/charmander.51057e9e8da58b29021a.png",
     "static/media/graveler.png": "/project-shopping-cart/static/media/graveler.d3fbe717fb71d1b2e166.png",
+    "static/media/Psyduck.png": "/project-shopping-cart/static/media/Psyduck.719ecfe62aca1cae9abf.png",
     "static/media/squirtle.png": "/project-shopping-cart/static/media/squirtle.82d3caf007b65bbda0e9.png",
     "static/media/geodude.png": "/project-shopping-cart/static/media/geodude.374f30131a78b3d6399d.png",
     "static/media/raichu.png": "/project-shopping-cart/static/media/raichu.e596a933638ba06d971c.png",
     "index.html": "/project-shopping-cart/index.html",
-    "main.4109600a.css.map": "/project-shopping-cart/static/css/main.4109600a.css.map",
-    "main.b9086e13.js.map": "/project-shopping-cart/static/js/main.b9086e13.js.map"
+    "main.a6e6fb09.css.map": "/project-shopping-cart/static/css/main.a6e6fb09.css.map",
+    "main.4de13f08.js.map": "/project-shopping-cart/static/js/main.4de13f08.js.map"
   },
   "entrypoints": [
-    "static/css/main.4109600a.css",
-    "static/js/main.b9086e13.js"
+    "static/css/main.a6e6fb09.css",
+    "static/js/main.4de13f08.js"
   ]
 }
