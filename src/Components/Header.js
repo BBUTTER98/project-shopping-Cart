@@ -3,7 +3,7 @@ function Header(){
     return(
         <div className="header">
             <h1>
-                IllegalPokemonTargs
+                <Link to="/shop" id="header-link">IllegalPokemonTargs</Link>
             </h1>
             <ul>
                 <li><Link to="/shop">shop</Link></li>

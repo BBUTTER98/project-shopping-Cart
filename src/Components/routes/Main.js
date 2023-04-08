@@ -37,13 +37,17 @@ function MainComponent(){
                 if(obj.id === pokemonId){
                     return{
                         ...obj,
-                        quantity: obj.quantity+1,
+                        quantity: parseInt(obj.quantity)+parseInt(amount),
                     }
                 } 
                 return obj;
             })
         )
-        setPriceForAll(priceForAll+addable);
+        console.log("addable: "+addable);
+        console.log("amout: "+amount);
+        console.log("equals: "+addable*amount);
+        console.log("price prev"+priceForAll);
+        setPriceForAll(priceForAll+(addable*amount));
     }
     const isQuantityZero = (pokemonId) =>{
         const checkedPokemon = basket.filter((obj)=>obj.id===pokemonId);
@@ -104,14 +108,14 @@ function MainComponent(){
                 showAlert("badInput");
             }
             else{
-        const newObject = {id:pokemon.id,pokemonData:pokemon,quantity:quantityOfPokemons};
+        const newObject = {id:pokemon.id,pokemonData:pokemon,quantity:parseInt(quantityOfPokemons)};
         if(!isItemInBasket(pokemon.id)){
             setBasket([...basket,newObject]);
         }
         else{
             increaseQuantity(pokemon.id,quantityOfPokemons);
         }
-        setPriceForAll(priceForAll+pokemon.price);
+        setPriceForAll(priceForAll+(pokemon.price*quantityOfPokemons));
         showAlert("add");
     }
     }

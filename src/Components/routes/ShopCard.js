@@ -21,18 +21,18 @@ function ShopCard(props){
                 )
             })}
             <footer>
-                <div className="sum">Sum for all: {sumPrice}</div>
                 <div className="buy">
                     <button onClick={()=>{
                         buy();
-                    }}>Buy</button>
+                    }}>Checkout</button>
                 </div>
                 <div className="clear-basket">
                     <button onClick={()=>{
                         clear();
-                    }}>Clean Basket</button>
+                    }}>remove all</button>
                 </div>
-                
+                <div className="sum">Sum for all:</div>
+                <div className="sum-value">{sumPrice}$</div>
             </footer>
         </div>
     )

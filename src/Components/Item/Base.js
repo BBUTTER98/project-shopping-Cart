@@ -16,11 +16,11 @@ function Base(props){
                 <div className={classValue}>{type}</div>
                 <div className="buy-inputs">
                     <button className="buy-for" onClick={()=>{
-                        props.add(pokemon, inputValue);
+                        props.add(pokemon, parseInt(inputValue));
                     }}>
-                    Add {price}$
+                    Add {price*inputValue}$
                     </button>
-                    <input type="number" value={inputValue} onChange={(e)=>setInputValue(e.target.value)}/>
+                    <input type="number" min='1' value={inputValue} onChange={(e)=>setInputValue(e.target.value)}/>
                 </div>
             
         </div>

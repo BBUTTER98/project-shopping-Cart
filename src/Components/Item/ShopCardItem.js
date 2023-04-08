@@ -7,7 +7,7 @@ function ShopCardItem(props){
     let sum = price*quantity;
     return  (
         <div className="shop-card-item">
-            <div>
+            <div className="img">
                 <img src={photos[id-1].path} alt={name} className="basket-pokemon-icon" />
             </div>
             <div className="title">
