@@ -218,13 +218,10 @@ footer button{
     padding: 10px 40px;
     cursor: pointer;
 }
-footer .buy{
-    width: 40%;
-}
 .sum{
-    width: 40%;
     font-size: 24px;
     font-weight: 600;
+    width: 35%;
 }
 .sum-value{
     width: 10%;
@@ -307,11 +304,11 @@ footer .buy{
     border-collapse: collapse;
 }
 .buy-inputs button{
-    width: 70%;
+    width: 60%;
     margin: 0;
 }
 .buy-inputs input{
-    width: 42px;
+    width: 25%;
     height: 43px;
     padding: 0;
     box-sizing: border-box;

@@ -11,7 +11,7 @@ function Base(props){
                 <h2>{name}</h2>
                 <Link to={`/shop/${id}`} className="container-for-image-hovering">
                     <img src={photos[id-1].path} alt={name} className="pokemon-shop"/>
-                    <div className="hovered-div">Click to see more information about it</div>
+                    <div className="hovered-div">Click to see more</div>
                 </Link>
                 <div className={classValue}>{type}</div>
                 <div className="buy-inputs">
@@ -20,7 +20,7 @@ function Base(props){
                     }}>
                     Add {price*inputValue}$
                     </button>
-                    <input type="number" min='1' value={inputValue} onChange={(e)=>setInputValue(e.target.value)}/>
+                    <input type="number" min='1' max='99' value={inputValue} onChange={(e)=>setInputValue(e.target.value)}/>
                 </div>
             
         </div>

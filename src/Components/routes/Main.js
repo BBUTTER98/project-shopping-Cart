@@ -174,7 +174,7 @@ function MainComponent(){
             <Alert alertSpecific = {alerts[0]} message="Pokemon had been added to your basket" handleClick = {deleteAlertOnClick} type="add"/>
             <Alert alertSpecific = {alerts[1]} message="Item has been deleted from the basket" handleClick = {deleteAlertOnClick} type="success"/>
             <Alert alertSpecific = {alerts[2]} message="Cannot clear empty basket" handleClick = {deleteAlertOnClick} type="warning"/>
-            <Alert alertSpecific = {alerts[3]} message="You cannot buy nothing" handleClick = {deleteAlertOnClick} type="warning"/>
+            <Alert alertSpecific = {alerts[3]} message="Your shopping cart is empty" handleClick = {deleteAlertOnClick} type="warning"/>
             <Alert alertSpecific = {alerts[4]} message="Order is in realization" handleClick = {deleteAlertOnClick} type="success"/>
             <Alert alertSpecific = {alerts[5]} message="Successfully cleared your basket" handleClick = {deleteAlertOnClick} type="success"/>
             <Alert alertSpecific = {alerts[6]} message="Please insert correct number (greater than 0)" handleClick = {deleteAlertOnClick} type="warning"/>

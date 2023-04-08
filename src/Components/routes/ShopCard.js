@@ -1,8 +1,6 @@
 import ShopCardItem from "../Item/ShopCardItem";
-
 function ShopCard(props){
     const { items, increaseQuantity, decreaseQuantity, sumPrice, clear, buy, drop } = props;
-    
     return(
         <div>
             <h1>Your basket</h1>
@@ -21,17 +19,21 @@ function ShopCard(props){
                 )
             })}
             <footer>
-                <div className="buy">
-                    <button onClick={()=>{
-                        buy();
-                    }}>Checkout</button>
-                </div>
                 <div className="clear-basket">
                     <button onClick={()=>{
                         clear();
+                    }} disabled={items.length===0 ? true : false} style={{
+                        cursor: items.length===0 ? "not-allowed" : "pointer"
                     }}>remove all</button>
                 </div>
-                <div className="sum">Sum for all:</div>
+                <div className="buy">
+                    <button onClick={()=>{
+                        buy();
+                    }} disabled={items.length===0 ? true : false} style={{
+                        cursor: items.length===0 ? "not-allowed" : "pointer"
+                    }}>Checkout</button>
+                </div>
+                <div className="sum">Total:</div>
                 <div className="sum-value">{sumPrice}$</div>
             </footer>
         </div>
