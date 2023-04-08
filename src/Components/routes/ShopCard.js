@@ -1,12 +1,24 @@
+import { Link } from "react-router-dom";
 import ShopCardItem from "../Item/ShopCardItem";
+import psyduck from "./Psyduck.png";
 function ShopCard(props){
     const { items, increaseQuantity, decreaseQuantity, sumPrice, clear, buy, drop } = props;
     return(
         <div>
             <h1>Your basket</h1>
 
-            
-                
+            <div className="empty-shoping-cart" style={{
+                display: items.length===0 ? "grid" : "none"
+            }}>
+                <div className="title">
+                    <h2>Your Pokemon shopping Cart is empty.</h2>
+                    <p>Let's add something nice to it. <Link to='/shop'>Click here to start shopping</Link></p>
+                </div>
+                <div className="psyduck-photo"> 
+                    <img src={psyduck} alt="psyduck" />
+                </div>
+            </div>
+            <div>
             {items.map((obj)=> {
                 return(
                     <ShopCardItem
@@ -18,6 +30,8 @@ function ShopCard(props){
                     />
                 )
             })}
+            </div>
+            
             <footer>
                 <div className="clear-basket">
                     <button onClick={()=>{

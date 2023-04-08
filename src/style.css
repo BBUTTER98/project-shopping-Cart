@@ -136,9 +136,6 @@ button{
     align-items: center;
     justify-content: center;
 }
-.shop-card-item:first-child{
-    width: 20%;
-}
 .shop-card-item > .title{
     width: 50%;
     display: flex;
@@ -357,4 +354,25 @@ input[type='number']{
     .container{
         width: 100%;
     }
+}
+.empty-shoping-cart{
+    font-size: 24px;
+    grid-template-columns: 1fr 30%;
+    grid-template-rows: 200px;
+    gap: 20px;
+    background-color: #EEE;
+    margin: 50px;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.empty-shoping-cart > .psyduck-photo img{
+    height: 200px;
+}
+.empty-shoping-cart .paragraph{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+.empty-shoping-cart .psyduck-photo{
+    grid-row: 1/3;
+    grid-column: 2/3;
 }
